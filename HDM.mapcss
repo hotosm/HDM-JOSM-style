@@ -767,6 +767,7 @@ node[amenity=pub] {
 node[amenity=restaurant] {
     icon-image: "./icons/restaurant.png";
 }
+node[amenity=clinic],
 node[amenity=hospital] {
     icon-image: "icons/hospital.png";
     z-index: 20;
