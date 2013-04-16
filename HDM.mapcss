@@ -878,6 +878,9 @@ node[shop=mobile_phone] {
 node[shop=car_parts] {
     icon-image: "icons/car_parts.png";
 }
+node[shop=doityourself] {
+    icon-image: "icons/diy.png";
+}
 /*node[shop=alcohol] {
     icon-image: "icons/shopping_alcohol.n.16.png";
     z-index: 20;
@@ -908,10 +911,6 @@ node[shop=confectionery] {
 }
 node[shop=convenience] {
     icon-image: "icons/shopping_convenience.n.16.png";
-    z-index: 20;
-}
-node[shop=doityourself] {
-    icon-image: "icons/shopping_diy.n.16.png";
     z-index: 20;
 }
 node[shop=fishmonger] {
