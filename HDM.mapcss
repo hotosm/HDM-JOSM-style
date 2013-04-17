@@ -1285,9 +1285,9 @@ area[military]:closed                   {
     fill-opacity: 0.2;
     prop_area_small_name : 1;}
 area[building]:closed {
-    color: #bca9a9;
+    color: #d92626;
     width: 1;
-    fill-color: #bca9a9;
+    fill-color: #d92626;
     fill-opacity: 0.2;
 }
 area[natural=water]:closed,
