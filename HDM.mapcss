@@ -848,10 +848,9 @@ node[amenity=waste_basket] {
 node[amenity=money_transfer] {
     icon-image: "icons/money_transfer.png";
 }
-node[amenity=funeral_house] {
-    icon-image: "icons/coffin.png"; }
 node[amenity=gambling] {
-    icon-image: "icons/gambling.png"; }
+    icon-image: "icons/gambling.png";
+}
 /* Craft */
 node[craft] {
     icon-image: "icons/craft.png";
@@ -883,6 +882,15 @@ node[shop=car_parts] {
 }
 node[shop=doityourself] {
     icon-image: "icons/diy.png";
+}
+node[shop=beauty] {
+    icon-image: "icons/beauty.png";
+}
+node[shop=hairdresser] {
+    icon-image: "icons/hairdresser.png";
+}
+node[shop=funeral_directors] {
+    icon-image: "icons/coffin.png";
 }
 /*node[shop=alcohol] {
     icon-image: "icons/shopping_alcohol.n.16.png";
