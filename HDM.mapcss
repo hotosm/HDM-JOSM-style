@@ -103,7 +103,7 @@ way[highway=unclassified]{
 way[highway=residential] {
     z-index: 5;
     width: 4;
-    casing-color: #E8E8E8;
+    casing-color: #DAA529;
     casing-width: 2;
 }
 way[narrow=yes],
@@ -1520,10 +1520,15 @@ node[amenity=courthouse] {
 node[highway=street_lamp] {
     icon-image: "./icons/streetlamp.png";
 }
-node[office=ngo] {
-    icon-image: "./icons/ngo.png";
+node[office] {
     text: auto;
     text-halo: #ffffaa;
     text-halo-radius: 1;
     text-position: center;
+}
+node[office=ngo] {
+    icon-image: "./icons/ngo.png";
+}
+node[office=government] {
+    icon-image: "./icons/government.png";
 }
