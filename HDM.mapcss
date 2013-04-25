@@ -1175,8 +1175,8 @@ node[power=tower] {
     icon-image: "icons/power_tower_high2.n.16.png";
     z-index: 20;
 }
-node[power=pole] {
-    icon-image: "icons/power_tower_low.n.16.png";
+node|z19-[power=pole] {
+    icon-image: "icons/power_pole.png";
     z-index: 20;
 }
 node[waterway=weir] {
