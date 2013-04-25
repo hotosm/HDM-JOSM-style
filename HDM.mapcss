@@ -788,8 +788,8 @@ node[amenity=bank] {
     z-index: 20;
 }
 /* More Amenities */
-node[amenity=bench] {
-    icon-image: "icons/amenity_bench.n.16.png";
+node|z19-[amenity=bench] {
+    icon-image: "icons/bench.png";
     z-index: 20;
 }
 node[amenity=drinking_water] {
