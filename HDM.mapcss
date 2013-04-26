@@ -1513,6 +1513,10 @@ node[man_made=water_well] {
     icon-image: "icons/water_well.png";
     z-index: 20;
 }
+node[man_made=water_tower] {
+    icon-image: "icons/water_tower.png";
+    z-index: 20;
+}
 node[man_made=tower]["tower:type"=communication] {
     icon-image: "icons/communication_tower.png";
 }
