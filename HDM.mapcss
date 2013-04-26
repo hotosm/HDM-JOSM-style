@@ -831,7 +831,7 @@ node[amenity=townhall] {
     z-index: 20;
 }
 node[amenity=toilets] {
-    icon-image: "icons/amenity_toilets.n.16.png";
+    icon-image: "icons/toilets.png";
     z-index: 20;
 }
 node[amenity=vending_machine] {
