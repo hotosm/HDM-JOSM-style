@@ -837,6 +837,9 @@ node[amenity=townhall] {
 node[amenity=toilets] {
     icon-image: "icons/toilets.png";
 }
+node[amenity=shower] {
+    icon-image: "icons/shower.png";
+}
 node[amenity=vending_machine] {
     icon-image: "icons/shopping_vending_machine.n.16.png";
     z-index: 20;
