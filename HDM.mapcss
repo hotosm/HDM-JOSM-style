@@ -785,8 +785,7 @@ node[amenity=atm] {
     icon-image: "icons/atm.png";
 }
 node[amenity=bank] {
-    icon-image: "icons/money_bank2.n.16.png";
-    z-index: 20;
+    icon-image: "icons/bank.png";
 }
 /* More Amenities */
 node|z19-[amenity=bench] {
