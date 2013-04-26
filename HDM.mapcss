@@ -894,6 +894,12 @@ node[shop=hairdresser] {
 node[shop=funeral_directors] {
     icon-image: "icons/coffin.png";
 }
+node[shop=dry_cleaning] {
+    icon-image: "icons/washing_machine.png";
+}
+node[shop=clothes] {
+    icon-image: "icons/clothes.png";
+}
 /*node[shop=alcohol] {
     icon-image: "icons/shopping_alcohol.n.16.png";
     z-index: 20;
@@ -912,10 +918,6 @@ node[shop=butcher] {
 }
 node[shop=car] {
     icon-image: "icons/shopping_car.n.16.png";
-    z-index: 20;
-}
-node[shop=clothes] {
-    icon-image: "icons/shopping_clothes.n.16.png";
     z-index: 20;
 }
 node[shop=confectionery] {
