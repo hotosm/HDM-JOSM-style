@@ -368,6 +368,10 @@ way[construction=light_rail]::dashes {
     width: 2;
     dashes: 8,12;
 }
+node[traffic_calming=bump] {
+    icon-image: "icons/bump.png";
+    z-index: 20;
+}
 
 /* Waterways */	
 
@@ -832,7 +836,6 @@ node[amenity=townhall] {
 }
 node[amenity=toilets] {
     icon-image: "icons/toilets.png";
-    z-index: 20;
 }
 node[amenity=vending_machine] {
     icon-image: "icons/shopping_vending_machine.n.16.png";
