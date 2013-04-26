@@ -777,7 +777,9 @@ node[amenity=hospital] {
 }
 node[amenity=pharmacy] {
     icon-image: "icons/pharmacy.png";
-    z-index: 20;
+}
+node[amenity=studio] {
+    icon-image: "icons/studio.png";
 }
 node[amenity=atm] {
     icon-image: "icons/money_atm.n.16.png";
