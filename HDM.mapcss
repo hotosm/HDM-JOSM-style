@@ -916,6 +916,9 @@ node[shop=clothes] {
 node[shop=bicycle] {
     icon-image: "icons/bicycle_repair.png";
 }
+node[shop=motorcycle] {
+    icon-image: "icons/motorcycle_repair.png";
+}
 /*node[shop=alcohol] {
     icon-image: "icons/shopping_alcohol.n.16.png";
     z-index: 20;
@@ -978,10 +981,6 @@ node[shop=kiosk] {
 }
 node[shop=laundry] {
     icon-image: "icons/shopping_laundrette.n.16.png";
-    z-index: 20;
-}
-node[shop=motorcycle] {
-    icon-image: "icons/shopping_motorcycle.n.16.png";
     z-index: 20;
 }
 node[shop=music] {
