@@ -928,6 +928,10 @@ node[shop=bicycle] {
 node[shop=motorcycle] {
     icon-image: "icons/motorcycle_repair.png";
 }
+node[shop=photo] {
+    icon-image: "icons/photo.png";
+}
+
 /*node[shop=alcohol] {
     icon-image: "icons/shopping_alcohol.n.16.png";
     z-index: 20;
@@ -1199,6 +1203,10 @@ node[waterway=weir] {
     icon-image: "icons/transport_weir.n.16.png";
     z-index: 20;
 }
+node[natural=tree] {
+    icon-image: "icons/tree.png";
+}
+
 
 /* Addressing */
 
