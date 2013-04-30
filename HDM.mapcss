@@ -913,12 +913,11 @@ node[shop=dry_cleaning] {
 node[shop=clothes] {
     icon-image: "icons/clothes.png";
 }
+node[shop=bicycle] {
+    icon-image: "icons/bicycle_repair.png";
+}
 /*node[shop=alcohol] {
     icon-image: "icons/shopping_alcohol.n.16.png";
-    z-index: 20;
-}
-node[shop=bicycle] {
-    icon-image: "icons/shopping_bicycle.n.16.png";
     z-index: 20;
 }
 node[shop=book], node[shop=books] {
