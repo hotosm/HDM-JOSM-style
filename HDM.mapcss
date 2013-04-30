@@ -860,6 +860,12 @@ node[amenity=gambling] {
 node[amenity=grave_yard] {
     icon-image: "icons/grave.png";
 }
+node[amenity=cinema] {
+    icon-image: "icons/cinema.png";
+}
+node[amenity=social_facility] {
+    icon-image: "icons/social_facility.png";
+}
 /* Craft */
 node[craft] {
     icon-image: "icons/craft.png";
@@ -1006,9 +1012,6 @@ node[historic=castle] {
     text: auto;
     font-size: 10;
     z-index: 20;
-}
-node[amenity=cinema] {
-    icon-image: "icons/cinema.png";
 }
 node[historic=memorial] {
     icon-image: "icons/tourist_memorial.n.16.png";
