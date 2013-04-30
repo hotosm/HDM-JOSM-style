@@ -1081,8 +1081,7 @@ node[aeroway=helipad] {
     z-index: 20;
 }
 node[amenity=bus_station] {
-    icon-image: "icons/transport_bus_station.n.16.png";
-    z-index: 20;
+    icon-image: "icons/bus_station.png";
 }
 node[highway=bus_stop] {
     icon-image: "icons/transport_bus_stop2.n.16.png";
