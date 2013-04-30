@@ -375,20 +375,11 @@ node[traffic_calming=bump] {
 
 /* Waterways */	
 
-way[waterway=river] 
-{
-    z-index: 6;
-    color: #3434ff;
-    width: 3;
-    text:auto;
-    text-color: #3434ff;
-    font-size:9;
-    text-position: line;
-    text-offset: 7}
-
+way[waterway=river], 
 way[waterway=canal], 
 way[waterway=stream] {
     z-index: 5;
+    color: #3434ff;
     width: 2;
     text:auto;
     text-color: #3434ff;
