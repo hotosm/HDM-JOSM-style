@@ -1128,8 +1128,7 @@ node[amenity=bicycle_rental] {
     z-index: 20;
 }
 node[amenity=car_rental] {
-    icon-image: "icons/transport_rental_car.n.16.png";
-    z-index: 20;
+    icon-image: "icons/car_rental.png";
 }
 node[amenity=taxi] {
     icon-image: "icons/taxi.png";
