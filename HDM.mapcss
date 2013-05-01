@@ -1137,7 +1137,7 @@ node[amenity=taxi] {
     icon-image: "icons/taxi.png";
 }
 node[railway=station] {
-    icon-image: "icons/transport_train_station.n.16.png";
+    icon-image: "icons/railway_station.png";
     text-offset:0;
     text: auto;
     font-size: 10;
