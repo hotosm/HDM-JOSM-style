@@ -749,7 +749,7 @@ node|z18-[amenity] {
 node[amenity=school] {
     icon-image: "./icons/school.png";
 }
-aera[amenity=school]:closed {
+area[amenity=school]:closed {
     color: yellow;
     fill-color: yellow;
     fill-opacity: 0.1;
@@ -823,9 +823,6 @@ node[amenity=hunting_stand] {
 node[amenity=kindergarten] {
     icon-image: "icons/kindergarten.png";
 }
-node[amenity=place_of_worship] {
-    icon-image: "icons/church.png";
-}
 node[amenity=post_office] {
     icon-image: "icons/amenity_post_office.n.16.png";
     z-index: 20;
@@ -878,10 +875,17 @@ node[amenity=social_facility] {
 node[amenity=dentist] {
     icon-image: "icons/dentist.png";
 }
+
+/* Places of worship */
+node[amenity=place_of_worship] {
+    icon-image: "icons/church.png";
+}
+
 /* Craft */
 node[craft] {
     icon-image: "icons/craft.png";
 }
+
 /* Shops */
 node[shop] {
     icon-image: "icons/shop.png";
