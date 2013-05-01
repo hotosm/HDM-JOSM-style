@@ -1101,7 +1101,7 @@ node[amenity=bus_station] {
     icon-image: "icons/bus_station.png";
 }
 node[highway=bus_stop] {
-    icon-image: "icons/transport_bus_stop2.n.16.png";
+    icon-image: "icons/bus_stop.png";
     z-index: 20;
 }
 node[amenity=fuel] {
