@@ -875,6 +875,9 @@ node[amenity=cinema] {
 node[amenity=social_facility] {
     icon-image: "icons/social_facility.png";
 }
+node[amenity=dentist] {
+    icon-image: "icons/dentist.png";
+}
 /* Craft */
 node[craft] {
     icon-image: "icons/craft.png";
