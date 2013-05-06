@@ -373,7 +373,7 @@ node[traffic_calming=bump] {
     z-index: 20;
 }
 
-/* Waterways */	
+/* Waterways */ 
 
 way[waterway=river]
  {
@@ -395,7 +395,7 @@ way[waterway=stream] {
     font-size:9;
     text-position: line;
     text-offset: 7;}
-way[waterway=drain] 			 {z-index: 5;
+way[waterway=drain]              {z-index: 5;
     color: #3434ff;
     width: 1;
     text:auto;
@@ -404,6 +404,9 @@ way[waterway=drain] 			 {z-index: 5;
     text-offset: 3;}
 way[waterway][tunnel=yes]          {z-index: 5;
     dashes: 8,4;}
+way[waterway][intermittent=yes]  {z-index: 5;
+    color: #1B00FD;
+    opacity: 0.26; }
 
 /* Aeroways */
 
@@ -1258,7 +1261,7 @@ area[natural=beach]:closed              {
     fill-color: yellow;
     fill-opacity: 0.2;
     prop_area_small_name : 1;}
-way[natural=coastline]						{
+way[natural=coastline]                      {
     z-index: 5;
     color: black;
     width: 3;
@@ -1338,14 +1341,14 @@ area[waterway][waterway!=dam]:closed    {
     fill-color: #3434ff;
        fill-opacity: 0.2;
     prop_area_small_name : 1;}
-way[waterway=dam]							{
+way[waterway=dam]                           {
     z-index: 5;
     color: black;
     width: 1;
     fill-color: #222222;
     fill-opacity: 0.1;
     prop_area_small_name : 1;}
-area[man_made]:closed							{
+area[man_made]:closed                           {
     color: black;
     width: 2;
     fill-color: #222222;
@@ -1384,7 +1387,7 @@ area[leisure=garden]:closed            {
     fill-color: #66ff44;
     fill-opacity: 0.2;
     prop_area_small_name : 1;}
-area[leisure=pitch]:closed					{
+area[leisure=pitch]:closed                  {
     z-index: 6;
     color: #88bb44;
     width: 2;
@@ -1407,22 +1410,22 @@ area[public_transport=pay_scale_area]:closed {
     fill-color: gray;
        fill-opacity: 0.1;
 }
-way[man_made=pier]							{
+way[man_made=pier]                          {
     z-index: 4;
     color: #777;
     width: 3;
     casing-color: black;
     casing-width: 1;}
-way[man_made=pier][floating=yes]			{
+way[man_made=pier][floating=yes]            {
     z-index: 5;
     dashes: 4,2;
     casing-color: #444;}
-area[leisure=marina]:closed					{
+area[leisure=marina]:closed                 {
     color: pink;
     fill-color: pink;
     fill-opacity: 0.4;
     prop_area_small_name : 1;}
-way[leisure=slipway]						{
+way[leisure=slipway]                        {
     z-index: 5;
     color: grey;
     width: 3;
@@ -1471,7 +1474,7 @@ way[boundary=administrative][waterway] {
     dashes: 24,4;
     width: 6;
 }
-area[landuse=cemetery]:closed						{
+area[landuse=cemetery]:closed                       {
     color: #664466;
     width: 2;
     fill-color: #664466;
