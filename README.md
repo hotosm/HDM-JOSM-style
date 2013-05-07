@@ -12,4 +12,4 @@ Special thanks to:
 
 - [OCHA](http://thenounproject.com/ochaavmu/)
 
-- [Samal Bemel-Benrud](http://thenounproject.com/samanbb/)
+- [Saman Bemel-Benrud](http://thenounproject.com/samanbb/)
