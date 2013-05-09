@@ -938,6 +938,9 @@ node[shop=motorcycle] {
 node[shop=photo] {
     icon-image: "icons/photo.png";
 }
+node[shop=tailor] {
+    icon-image: "icons/tailor.png";
+}
 node[shop=computer] {
     icon-image: "icons/computer.png";
 }
