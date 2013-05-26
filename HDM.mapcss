@@ -415,7 +415,7 @@ way[aeroway=aerodrome]:closed
     z-index: 3;
     color: #bb44bb;
     width: 3;
-    casing-color: #66066;
+    casing-color: #660660;
      casing-width: 1;
  }
 way|z-15[aeroway=aerodrome]:closed
