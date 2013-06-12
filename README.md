@@ -14,7 +14,7 @@ If not listed, you will need to create a new entry in the Active Entries list wi
 
 FIXME: licence of the current work
 
-cons are CC0 from [the Noun Project](http://thenounproject.com).
+Icons are CC0 from [the Noun Project](http://thenounproject.com).
 Special thanks to:
 
 - [OCHA](http://thenounproject.com/ochaavmu/)
