@@ -6,8 +6,8 @@ meta {
     icon: "icons/hot_small.png";
     description: "Humanitarian Data Model focused style.";
     version: "0.0.1";
-    author: "HOT team";
-    link: "http://josm.openstreetmap.de/wiki/Styles/HDM";
+    author: "HOT (Humanitarian OpenStreetMap Team)";
+    link: "https://github.com/hotosm/HDM-JOSM-style";
     
 }
 
