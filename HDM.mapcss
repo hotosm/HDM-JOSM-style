@@ -12,7 +12,7 @@ meta {
 }
 
 canvas {
-    background-color: #ffffea;
+    background-color: #f7f6f1;
 }
 node, area {
     text-color: black;
@@ -675,7 +675,7 @@ node[tourism=guest_house],node[tourism=bed_and_breakfast] {
     z-index: 20;
 }
 node[tourism=hotel] {
-    icon-image: "icons/hotel.png";
+    icon-image: "icons/hotel-18.png";
     font-size: 10;
 }
 node[tourism=hostel] {
@@ -687,11 +687,11 @@ node[tourism=motel] {
     z-index: 20;
 }
 node[amenity=fire_station] {
-    icon-image: "icons/fire_station.png";
+    icon-image: "icons/fire_station-18.png";
     z-index: 20;
 }
 node[amenity=police] {
-    icon-image: "icons/police.png";
+    icon-image: "icons/police-18.png";
 }
 node[amenity=post_box] {
     icon-image: "icons/amenity_post_box.n.16.png";
@@ -750,7 +750,7 @@ node|z18-[amenity] {
     text-offset:0;
 }
 node[amenity=school] {
-    icon-image: "icons/school.png";
+    icon-image: "icons/school-18.png";
 }
 area[amenity=school]:closed {
     color: yellow;
@@ -759,19 +759,19 @@ area[amenity=school]:closed {
     prop_area_small_name : 1;
 }
 node[amenity=university] {
-    icon-image: "icons/university.png";
+    icon-image: "icons/university-18.png";
 }
 node[amenity=library] {
     icon-image: "icons/library.png";
 }
 node[amenity=arts_centre] {
-    icon-image: "icons/arts_center.png";
+    icon-image: "icons/arts_centre-18.png";
 }
 node[amenity=bar] {
-    icon-image: "icons/bar.png";
+    icon-image: "icons/bar-18.png";
 }
 node[amenity=cafe] {
-    icon-image: "icons/cafe.png";
+    icon-image: "icons/cafe-18.png";
 }
 node[amenity=fast_food] {
     icon-image: "icons/food_fastfood.n.16.png";
@@ -781,32 +781,32 @@ node[amenity=pub] {
     icon-image: "icons/pub.png";
 }
 node[amenity=restaurant] {
-    icon-image: "icons/restaurant.png";
+    icon-image: "icons/restaurant-18.png";
 }
 node[amenity=clinic],
 node[amenity=hospital] {
-    icon-image: "icons/hospital.png";
+    icon-image: "icons/hospital-18.png";
     z-index: 20;
 }
 node[amenity=pharmacy] {
-    icon-image: "icons/pharmacy.png";
+    icon-image: "icons/pharmacy-18.png";
 }
 node[amenity=studio] {
-    icon-image: "icons/studio.png";
+    icon-image: "icons/studio-18.png";
 }
 node[amenity=atm] {
-    icon-image: "icons/atm.png";
+    icon-image: "icons/atm-18.png";
 }
 node[amenity=bank] {
-    icon-image: "icons/bank.png";
+    icon-image: "icons/bank-18.png";
 }
 /* More Amenities */
 node|z19-[amenity=bench] {
-    icon-image: "icons/bench.png";
+    icon-image: "icons/bench-18.png";
     z-index: 20;
 }
 node[amenity=drinking_water] {
-    icon-image: "icons/drinking_water.png";
+    icon-image: "icons/drinking_water-18.png";
 }
 node[amenity=emergency_phone] {
     icon-image: "icons/emergency-telephone-16.png";
@@ -821,7 +821,7 @@ node[amenity=hunting_stand] {
     z-index: 20;
 }
 node[amenity=kindergarten] {
-    icon-image: "icons/kindergarten.png";
+    icon-image: "icons/kindergarten-18.png";
 }
 node[amenity=post_office] {
     icon-image: "icons/amenity_post_office.n.16.png";
@@ -836,12 +836,12 @@ node[amenity=swimming_pool] {
     z-index: 20;
 }
 node[amenity=townhall] {
-    icon-image: "icons/townhall.png";
+    icon-image: "icons/townhall-18.png";
     font-size: 10;
     z-index: 20;
 }
 node[amenity=toilets] {
-    icon-image: "icons/toilets.png";
+    icon-image: "icons/toilets-18.png";
 }
 node[amenity=shower] {
     icon-image: "icons/shower.png";
@@ -855,61 +855,61 @@ node[amenity=veterinary] {
     z-index: 20;
 }
 node[amenity=waste_basket] {
-    icon-image: "icons/waste_basket.png";
+    icon-image: "icons/waste_basket-18.png";
 }
 node[amenity=money_transfer] {
-    icon-image: "icons/money_transfer.png";
+    icon-image: "icons/money_transfer-18.png";
 }
 node[amenity=gambling] {
-    icon-image: "icons/gambling.png";
+    icon-image: "icons/gambling-18.png";
 }
 node[amenity=grave_yard] {
-    icon-image: "icons/grave.png";
+    icon-image: "icons/grave_yard-18.png";
 }
 node[amenity=cinema] {
-    icon-image: "icons/cinema.png";
+    icon-image: "icons/cinema-18.png";
 }
 node[amenity=social_facility] {
-    icon-image: "icons/social_facility.png";
+    icon-image: "icons/social_facility-18.png";
 }
 node[amenity=dentist] {
-    icon-image: "icons/dentist.png";
+    icon-image: "icons/dentist-18.png";
 }
 
 /* Places of worship */
 node[amenity=place_of_worship] {
-    icon-image: "icons/church.png";
+    icon-image: "icons/place_of_worship-18.png";
 }
 
 /* Craft */
 node[craft] {
-    icon-image: "icons/craft.png";
+    icon-image: "icons/craft-18.png";
 }
 
 /* Shops */
 node[shop] {
-    icon-image: "icons/shop.png";
+    icon-image: "icons/shop-18.png";
 }
 node[shop=bakery] {
-    icon-image: "icons/bakery.png";
+    icon-image: "icons/bakery-18.png";
 }
 node[amenity=marketplace] {
-    icon-image: "icons/marketplace.png";
+    icon-image: "icons/marketplace-18.png";
 }
 node[shop=supermarket] {
-    icon-image: "icons/shopping_cart.png";
+    icon-image: "icons/supermarket-18.png";
 }
 node[shop=car_repair] {
-    icon-image: "icons/car_repair.png";
+    icon-image: "icons/car_repair-18.png";
 }
 node[shop=beverages] {
-    icon-image: "icons/soda.png";
+    icon-image: "icons/beverages-18.png";
 }
 node[shop=mobile_phone] {
-    icon-image: "icons/mobile_phone.png";
+    icon-image: "icons/mobile_phone-18.png";
 }
 node[shop=car_parts] {
-    icon-image: "icons/car_parts.png";
+    icon-image: "icons/car_parts-18.png";
 }
 node[shop=doityourself] {
     icon-image: "icons/diy.png";
@@ -918,16 +918,16 @@ node[shop=beauty] {
     icon-image: "icons/beauty.png";
 }
 node[shop=hairdresser] {
-    icon-image: "icons/hairdresser.png";
+    icon-image: "icons/hairdresser-18.png";
 }
 node[shop=funeral_directors] {
-    icon-image: "icons/coffin.png";
+    icon-image: "icons/funeral_directors-18.png";
 }
 node[shop=dry_cleaning] {
-    icon-image: "icons/washing_machine.png";
+    icon-image: "icons/dry_cleaning-18.png";
 }
 node[shop=clothes] {
-    icon-image: "icons/clothes.png";
+    icon-image: "icons/clothes-18.png";
 }
 node[shop=bicycle] {
     icon-image: "icons/bicycle_repair.png";
@@ -936,13 +936,13 @@ node[shop=motorcycle] {
     icon-image: "icons/motorcycle_repair.png";
 }
 node[shop=photo] {
-    icon-image: "icons/photo.png";
+    icon-image: "icons/photo-18.png";
 }
 node[shop=tailor] {
-    icon-image: "icons/tailor.png";
+    icon-image: "icons/tailor-18.png";
 }
 node[shop=computer] {
-    icon-image: "icons/computer.png";
+    icon-image: "icons/computer-18.png";
 }
 
 /*node[shop=alcohol] {
@@ -1115,7 +1115,7 @@ node[highway=bus_stop] {
     z-index: 20;
 }
 node[amenity=fuel] {
-    icon-image: "icons/fuel.png";
+    icon-image: "icons/fuel-18.png";
 }
 node[amenity=car_wash] {
     icon-image: "icons/transport_car_wash.n.16.png";
@@ -1141,10 +1141,10 @@ node[amenity=bicycle_rental] {
     z-index: 20;
 }
 node[amenity=car_rental] {
-    icon-image: "icons/car_rental.png";
+    icon-image: "icons/car_rental-18.png";
 }
 node[amenity=taxi] {
-    icon-image: "icons/taxi.png";
+    icon-image: "icons/taxi-18.png";
 }
 node[railway=station] {
     icon-image: "icons/railway_station.png";
@@ -1278,8 +1278,8 @@ area[landuse]:closed                    {
 area[landuse=residential]:closed        {
     color: #EB6D69;
     width: 2;
-    fill-color: #EB6D69;
-    fill-opacity: 0.15;
+    fill-color: #eeece1;
+    fill-opacity: 0.6;
 }
 area[landuse=retail]:closed             {
     color: #cc2222;
@@ -1544,21 +1544,21 @@ way[is_prop_set("prop_area_small_name")] {text-color: black;
 
 /* HDM specific */
 node[man_made=water_well] {
-    icon-image: "icons/water_well.png";
+    icon-image: "icons/bucket-18.png";
     z-index: 20;
 }
 node[man_made=water_tower] {
-    icon-image: "icons/water_tower.png";
+    icon-image: "icons/water_tower-18.png";
     z-index: 20;
 }
 node[man_made=tower]["tower:type"=communication] {
-    icon-image: "icons/communication_tower.png";
+    icon-image: "icons/communication_tower-18.png";
 }
 node[amenity=courthouse] {
-    icon-image: "icons/courthouse.png";
+    icon-image: "icons/courthouse-18.png";
 }
 node[highway=street_lamp] {
-    icon-image: "icons/streetlamp.png";
+    icon-image: "icons/streetlamp-18.png";
 }
 node[office] {
     text: auto;
@@ -1567,7 +1567,7 @@ node[office] {
     text-position: center;
 }
 node[office=ngo] {
-    icon-image: "icons/ngo.png";
+    icon-image: "icons/ngo-18.png";
 }
 node[office=government] {
     icon-image: "icons/government.png";
