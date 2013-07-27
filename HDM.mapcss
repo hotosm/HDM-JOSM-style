@@ -627,10 +627,27 @@ node {
     text-anchor-horizontal: center;
     text-anchor-vertical: below;
 }
-node[name] {
-    icon-image: "icons/poi.png";
-    text: auto;
+
+node|z-15-[name] {
+    font-size: 0; 
 }
+node|z16-[name] {
+    icon-image: "icons/poi.png";
+    font-family: Open Sans;
+    font-size: 9; 
+    text: auto;
+    text-halo-color: white; 
+    text-halo-radius: 1.5;
+}
+node|z18-[name] {
+    font-size: 11; 
+    text-halo-radius: 1.8;
+}
+node|z19-[name] {
+    font-size: 12; 
+    text-halo-radius: 1.9;
+}
+
 
 node[place] {
     icon-image: "icons/place.png";
@@ -1539,6 +1556,10 @@ way[is_prop_set("prop_area_small_name")] {text-color: black;
     text-halo: #ffffaa;
     text-halo-radius: 2;
     text-position: center;
+
+
+
+
 }
 /*@import("stylesheets/core_interactive.css");*/
 
