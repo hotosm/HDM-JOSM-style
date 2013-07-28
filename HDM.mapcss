@@ -628,9 +628,10 @@ node {
     text-anchor-vertical: below;
 }
 
-node|z-15-[name] {
-    font-size: 0; 
+node|z-15[name] {
+   text: eval("");  
 }
+
 node|z16-[name] {
     icon-image: "icons/poi.png";
     font-family: Open Sans;
@@ -651,7 +652,7 @@ node|z19-[name] {
 
 node[place] {
     icon-image: "icons/place.png";
-    font-family: DejaVu;
+    font-family: Open Sans;
     text: auto;
     text-halo-color: white;
     text-halo-radius: 2;
@@ -1550,10 +1551,11 @@ relation[type=route][route=foot] > way::route {
 /*@import("stylesheets/core_pois.css");*/
 /*@import("stylesheets/core_landuse.css");*/
 /*@import("stylesheets/core_relations.css");*/
-way[is_prop_set("prop_area_small_name")] {text-color: black;
+area[is_prop_set("prop_area_small_name")] {
+    text-color: black;
     font-size: 10;
     text: name;
-    text-halo: #ffffaa;
+    text-halo: white;
     text-halo-radius: 2;
     text-position: center;
 
