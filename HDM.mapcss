@@ -555,13 +555,13 @@ area[power=station]:closed {
     width: 2;
     fill-color: #666666;
     fill-opacity: 0.6;
-    prop_area_small_name : 1;}
+    small_area : true;}
 area[power=generator]:closed {
     color: black;
     width: 2;
     fill-color: #444444;
     fill-opacity: 0.6;
-    prop_area_small_name : 1;}
+    small_area : true;}
 
 /* Leisure */
 
@@ -574,7 +574,7 @@ way[golf=hole] {z-index: 5;
 area[leisure=sports_centre]:closed {
     color: #66ddcc;
     fill-color: #66ddcc;
-    prop_area_small_name : 1;
+    small_area : true;
 }
 
 
@@ -774,7 +774,7 @@ area[amenity=school]:closed {
     color: yellow;
     fill-color: yellow;
     fill-opacity: 0.1;
-    prop_area_small_name : 1;
+    small_area : true;
 }
 node[amenity=university] {
     icon-image: "icons/university-18.png";
@@ -1281,7 +1281,7 @@ area[natural=beach]:closed              {
     width: 1;
     fill-color: yellow;
     fill-opacity: 0.2;
-    prop_area_small_name : 1;}
+    small_area : true;}
 way[natural=coastline]                      {
     z-index: 5;
     color: black;
@@ -1316,7 +1316,7 @@ area[landuse=military]:closed           {
     width: 2;
     fill-color: #ff4444;
     fill-opacity: 0.2;
-    prop_area_small_name : 1;
+    small_area : true;
 }
 area[amenity]:closed, area[shop]:closed          {
     color: #ADCEB5;
@@ -1336,19 +1336,19 @@ area[tourism]:closed                    {
     width: 1;
     fill-color: #F7CECE;
     fill-opacity: 0.2;
-    prop_area_small_name : 1;}
+    small_area : true;}
 area[historic]:closed, area[ruins]:closed  {
     color: #F7F7DE;
     width: 1;
     fill-color: #F7F7DE;
     fill-opacity: 0.2;
-    prop_area_small_name : 1;}
+    small_area : true;}
 area[military]:closed                   {
     color: #D6D6D6;
     width: 1;
     fill-color: #D6D6D6;
     fill-opacity: 0.2;
-    prop_area_small_name : 1;}
+    small_area : true;}
 area[building]:closed {
     color: #d92626;
     width: 1;
@@ -1361,20 +1361,20 @@ area[waterway][waterway!=dam]:closed    {
        width: 2;
     fill-color: #3434ff;
        fill-opacity: 0.2;
-    prop_area_small_name : 1;}
+    small_area : true;}
 way[waterway=dam]                           {
     z-index: 5;
     color: black;
     width: 1;
     fill-color: #222222;
     fill-opacity: 0.1;
-    prop_area_small_name : 1;}
+    small_area : true;}
 area[man_made]:closed                           {
     color: black;
     width: 2;
     fill-color: #222222;
     fill-opacity: 0.1;
-    prop_area_small_name : 1;
+    small_area : true;
 }
 area[man_made=reservoir_covered]:closed {
     color: #3434ff;
@@ -1382,43 +1382,43 @@ area[man_made=reservoir_covered]:closed {
     dashes: 4, 2;
     fill-color: #222222;
     fill-opacity: 0.1;
-    prop_area_small_name : 1;
+    small_area : true;
 }
 area[landuse=reservoir]:closed          {
     color: #3434ff;
        width: 2;
     fill-color: #3434ff;
        fill-opacity: 0.2;
-    prop_area_small_name : 1;}
+    small_area : true;}
 area[landuse=forest]:closed, area[natural=wood]:closed {
     color: green;
       width: 2;
     fill-color: green;
       fill-opacity: 0.2;
-    prop_area_small_name : 1;}
+    small_area : true;}
 area[leisure=park]:closed              {
     color: #22aa22;
     width: 2;
     fill-color: #44ff44;
     fill-opacity: 0.15;
-    prop_area_small_name : 1;}
+    small_area : true;}
 area[leisure=garden]:closed            {
     color: #66ff44;
     width: 1;
     fill-color: #66ff44;
     fill-opacity: 0.2;
-    prop_area_small_name : 1;}
+    small_area : true;}
 area[leisure=pitch]:closed                  {
     z-index: 6;
     color: #88bb44;
     width: 2;
     fill-color: #88ff44;
     fill-opacity: 0.2;
-    prop_area_small_name : 1;}
+    small_area : true;}
 area[landuse=recreation_ground]:closed  {
     color: green;
     fill-color: green;
-    prop_area_small_name : 1;}
+    small_area : true;}
 area[amenity=parking]:closed            {
     color: #bbaa66;
        width: 1;
@@ -1445,7 +1445,7 @@ area[leisure=marina]:closed                 {
     color: pink;
     fill-color: pink;
     fill-opacity: 0.4;
-    prop_area_small_name : 1;}
+    small_area : true;}
 way[leisure=slipway]                        {
     z-index: 5;
     color: grey;
@@ -1458,7 +1458,7 @@ area[leisure=golf_course]:closed {
     width: 2;
     fill-color: #44ee22;
     fill-opacity: 0.2;
-    prop_area_small_name : 1;}
+    small_area : true;}
 way[boundary]                         {
     z-index: 5;
     color: #000066;
@@ -1500,7 +1500,7 @@ area[landuse=cemetery]:closed                       {
     width: 2;
     fill-color: #664466;
     opacity: 0.2;
-    prop_area_small_name : 1;}
+    small_area : true;}
 /* Addressing. Nodes with addresses *and* match POIs should have a poi icon, so we put addressing first */
 /* Route relations */
 
@@ -1551,18 +1551,16 @@ relation[type=route][route=foot] > way::route {
 /*@import("stylesheets/core_pois.css");*/
 /*@import("stylesheets/core_landuse.css");*/
 /*@import("stylesheets/core_relations.css");*/
-area[is_prop_set("prop_area_small_name")] {
+
+areae[val(prop(small_area))]:closed {
     text-color: black;
     font-size: 10;
     text: name;
-    text-halo: white;
+    text-halo-color: white;
     text-halo-radius: 2;
     text-position: center;
-
-
-
-
 }
+
 /*@import("stylesheets/core_interactive.css");*/
 
 /* HDM specific */
