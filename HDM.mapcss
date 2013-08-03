@@ -1552,7 +1552,7 @@ relation[type=route][route=foot] > way::route {
 /*@import("stylesheets/core_landuse.css");*/
 /*@import("stylesheets/core_relations.css");*/
 
-areae[val(prop(small_area))]:closed {
+area[eval(prop(small_area))]:closed {
     text-color: black;
     font-size: 10;
     text: name;
