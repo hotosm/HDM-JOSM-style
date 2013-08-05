@@ -752,12 +752,7 @@ node|z18-[amenity] {
 node[amenity=school] {
     icon-image: "icons/school-18.png";
 }
-area[amenity=school]:closed {
-    color: yellow;
-    fill-color: yellow;
-    fill-opacity: 0.1;
-    prop_area_small_name : 1;
-}
+
 node[amenity=university] {
     icon-image: "icons/university-18.png";
 }
@@ -1300,12 +1295,7 @@ area[landuse=military]:closed           {
     fill-opacity: 0.2;
     prop_area_small_name : 1;
 }
-area[amenity]:closed, area[shop]:closed          {
-    color: #ADCEB5;
-    width: 1;
-    fill-color: #ADCEB5;
-    fill-opacity: 0.2;
-}
+
 /* way[sport] should not be rendered by itself, according to wiki. Can we make it an "if all else fails"? */
 area[leisure]:closed                   {
     color: #8CD6B5;
@@ -1401,12 +1391,27 @@ area[landuse=recreation_ground]:closed  {
     color: green;
     fill-color: green;
     prop_area_small_name : 1;}
+
+area[amenity]:closed, area[shop]:closed          {
+    color: #ADCEB5;
+    width: 1;
+    fill-color: #ADCEB5;
+    fill-opacity: 0.2;
+}
+
 area[amenity=parking]:closed            {
     color: #bbaa66;
        width: 1;
     fill-color: #bbaa66;
        fill-opacity: 0.2;
 }
+area[amenity=school]:closed {
+    color: yellow;
+    fill-color: yellow;
+    fill-opacity: .2;
+    prop_area_small_name : 1;
+}
+
 area[public_transport=pay_scale_area]:closed {
     color: gray;
        width: 1;
