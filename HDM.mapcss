@@ -1563,7 +1563,7 @@ node[amenity=courthouse] {
     icon-image: "icons/courthouse-18.png";
 }
 node[highway=street_lamp] {
-    icon-image: "icons/streetlamp-18.png";
+    icon-image: "icons/street_lamp-18.png";
 }
 node[office] {
     text: auto;
