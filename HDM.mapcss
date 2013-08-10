@@ -1581,12 +1581,6 @@ node[amenity=courthouse] {
 node[highway=street_lamp] {
     icon-image: "icons/streetlamp-18.png";
 }
-node[office] {
-    text: auto;
-    text-halo: #ffffaa;
-    text-halo-radius: 1;
-    text-position: center;
-}
 node[office=ngo] {
     icon-image: "icons/ngo-18.png";
 }
