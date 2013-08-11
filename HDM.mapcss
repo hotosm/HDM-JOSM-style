@@ -1234,7 +1234,10 @@ node[natural=tree] {
 
 /* Addressing */
 
-node|z19-[addr:housenumber] {
+node|z-16[addr:housenumber] {
+   text: eval("");  
+}
+node|z17-[addr:housenumber] {
     symbol-shape: circle;
     symbol-size: eval((min(length(tag("addr:housenumber")), 3) * 5) + 4);
     symbol-fill-color: white;
@@ -1244,7 +1247,7 @@ node|z19-[addr:housenumber] {
     text-anchor-vertical: center;
     text-offset-y: -1;
 }
-node|z19-[addr:housenumber]::hn_casing {
+node|z17-[addr:housenumber]::hn_casing {
     z-index: -100;
     symbol-shape: circle;
     symbol-size: eval((min(length(tag("addr:housenumber")), 3) * 5) + 8);
