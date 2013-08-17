@@ -628,11 +628,11 @@ node {
     text-anchor-vertical: below;
 }
 
-node|z-15[name] {
+node|z-15[name], node|z-15[operator], node|z-15[brand], node|z-15[capacity] {
    text: eval("");  
 }
 
-node|z16-[name] {
+node|z16-[name], node|z16-[operator], node|z16-[brand], node|z-16[capacity] {
     icon-image: "icons/poi.png";
     font-family: Open Sans;
     font-size: 9; 
@@ -640,15 +640,14 @@ node|z16-[name] {
     text-halo-color: white; 
     text-halo-radius: 1.5;
 }
-node|z18-[name] {
+node|z18-[name], node|z18-[operator], node|z18-[brand], node|z18-[capacity] {
     font-size: 11; 
     text-halo-radius: 1.8;
 }
-node|z19-[name] {
+node|z19-[name], node|z19-[operator], node|z19-[brand], node|z19-[capacity] {
     font-size: 12; 
     text-halo-radius: 1.9;
 }
-
 
 node[place] {
     icon-image: "icons/place.png";
@@ -1123,9 +1122,6 @@ node[amenity=car_wash] {
 }
 node[amenity=bicycle_parking] {
     icon-image: "icons/transport_parking_bicycle.n.16.png";
-    text-offset:0;
-    text: capacity;
-    font-size: 10;
     z-index: 20;
 }
 node[amenity=parking] {
