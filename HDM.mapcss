@@ -1283,9 +1283,9 @@ area[landuse=retail]:closed             {
     fill-opacity: 0.15;
 }
 area[landuse=commercial]:closed         {
-    color: #4444bb;
+    color: #D5C6C9;
     width: 2;
-    fill-color: #444488;
+    fill-color: #D5C6C9;
     fill-opacity: 0.15;
 }
 area[landuse=military]:closed           {
