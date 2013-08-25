@@ -1326,6 +1326,7 @@ area[building]:closed {
     width: 1;
     fill-color: #D58C8C;
     fill-opacity: 0.2;
+    small_area : true;
 }
 area[natural=water]:closed,
 area[waterway][waterway!=dam]:closed    {
