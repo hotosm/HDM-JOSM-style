@@ -1076,10 +1076,6 @@ node[amenity=theatre] {
 node[tourism=theme_park] {
     icon-image: "icons/tourist_theme_park.n.16.png";
     z-index: 20;
-    text-offset:0;
-    text: auto;
-    font-size: 10;
-    z-index: 20;
 }
 node[tourism=viewpoint] {
     icon-image: "icons/tourist_view_point.n.16.png";
@@ -1144,9 +1140,6 @@ node[amenity=taxi] {
 }
 node[railway=station] {
     icon-image: "icons/railway_station.png";
-    text-offset:0;
-    text: auto;
-    font-size: 10;
     z-index: 20;
 }
 node[railway=tram_stop] {
@@ -1190,10 +1183,6 @@ node[power=station] {
 node[power=generator] {
     icon-image: "icons/power_station.png";
     z-index: 20;
-    text-offset:0;
-    text: auto;
-    font-size: 10;
-    z-index: 20;
 }
 node[power=tower] {
     icon-image: "icons/power_tower_high2.n.16.png";
@@ -1221,7 +1210,6 @@ node|z17-[addr:housenumber] {
     symbol-shape: circle;
     symbol-size: eval((min(length(tag("addr:housenumber")), 3) * 5) + 4);
     symbol-fill-color: white;
-
     text: "addr:housenumber";
     text-anchor-horizontal: center;
     text-anchor-vertical: center;
