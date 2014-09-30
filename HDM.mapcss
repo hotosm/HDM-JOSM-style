@@ -12,7 +12,7 @@ meta {
 }
 
 canvas {
-    background-color: #f7f6f1;
+    fill-color: #f7f6f1;
 }
 node, area {
     text-color: black;
