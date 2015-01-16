@@ -3,12 +3,9 @@
 This JOSM style aims to reflect as much as possible the [Humanitarian Data Model](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Tags).
 
 
-To use: Select HDM in JOSM's Available Map Styles List (Located in JOSM Preferences)
-
-If not listed, you will need to create a new entry in the Active Entries list with the following URL:
-[http://ubuntuone.com/252trPHQ7upvvFXtcAXLF5](http://ubuntuone.com/252trPHQ7upvvFXtcAXLF5).
-
-
+To install: 
+Go to JOSM's preferences, select 3rd icon from the top, select Map Paint Styles Tab, then Select HDM by HOT.  
+More detailed instruction available in [JOSM's documentation](http://josm.openstreetmap.de/wiki/Styles)
 
 # Copyright
 
