@@ -52,7 +52,8 @@ way[highway=trunk],way[highway=trunk_link],
 way[highway=primary],way[highway=primary_link],
 way[highway=secondary],way[highway=secondary_link],
 way[highway=tertiary],way[highway=tertiary_link],
-way[highway=residential],way[highway=unclassified] {
+way[highway=residential],way[highway=unclassified],
+way[highway=footway] {
     z-index: 5;
     text: auto;
     text-color: black;
