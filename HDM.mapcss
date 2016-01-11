@@ -5,7 +5,7 @@ meta {
     title: "HDM";
     icon: "icons/hot_small.png";
     description: "Humanitarian Data Model focused style.";
-    version: "0.0.1";
+    version: "0.0.2";
     author: "HOT (Humanitarian OpenStreetMap Team)";
     link: "https://github.com/hotosm/HDM-JOSM-style";
     
@@ -923,7 +923,7 @@ node[shop=bakery] {
     icon-image: "icons/bakery-18.png";
 }
 node[amenity=marketplace] {
-    icon-image: "icons/marketplace-18.png";
+    icon-image: "icons/marketplace.png";
 }
 node[shop=supermarket] {
     icon-image: "icons/supermarket-18.png";
@@ -1124,7 +1124,7 @@ node[amenity=bus_station] {
     icon-image: "icons/bus_station.png";
 }
 node[highway=bus_stop] {
-    icon-image: "icons/bus_stop.png";
+    icon-image: "icons/bus_stop-18.png";
     z-index: 20;
 }
 node[amenity=fuel] {
@@ -1589,7 +1589,7 @@ node[man_made=water_tower] {
     z-index: 20;
 }
 node[man_made=tower]["tower:type"=communication] {
-    icon-image: "icons/communication_tower-18.png";
+    icon-image: "icons/communication-tower-18.png";
 }
 node[amenity=courthouse] {
     icon-image: "icons/courthouse-18.png";
